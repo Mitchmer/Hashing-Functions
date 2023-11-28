@@ -52,8 +52,10 @@ private:
   /* TODO: Add any data members or private helper functions that you'll need,
    * then delete this comment.
    */
-  
-  
+  size_t** table;
+  size_t tableSize;
+
+  HashFunction hashFunction;
   /* Fun with C++: these next two lines disable implicitly-generated copy
    * functions that would otherwise cause weird errors if you tried to
    * implicitly copy an object of this type. You don't need to touch these
